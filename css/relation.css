@@ -24,8 +24,9 @@ img{
 	max-width: 1200px;
 	margin: auto;
 	background: #EEEEEE;
-	padding-bottom: 50px;
+	padding-bottom: 20px;
 	margin-bottom: 200px;
+	position: relative;
 }
 .finitude .limited{
 	float: left;
@@ -125,7 +126,34 @@ img{
 	font-size: 14px;
 	margin-top: 10px;
 }
+.finitude .twosanjiao{
+	margin: 0 0 80px 30px;
+	width: 50px;
+	height: 50px;
+}
+.finitude .twosanjiao img{
+	width: 100%;
+}
+.finitude .qiche{
+	position: absolute;
+	right: -3%;
+	bottom: -10%;
+	width: 40%;
+}
+.finitude .qiche img{
+	width: 100%;
+}
+@media (max-width: 1500px) {
 
+	.finitude .qiche{
+		position: inherit;
+		width: 40%;
+		margin-left:50%;
+	}
+	.finitude .qiche img{
+		width: 100%;
+	}
+}
 @media (max-width: 992px) {
 	.women{
 		margin: 10px 0;
@@ -135,8 +163,8 @@ img{
 		padding: 5px 20px;
 	}
 	.finitude{
-		padding-bottom: 50px;
-		margin-bottom: 200px;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
 	}
 	.finitude .limited{
 		float: left;
@@ -234,5 +262,24 @@ img{
 		color: #4C4C4C;
 		font-size: 14px;
 		margin-top: 10px;
+	}
+	.finitude .sanjiao{
+		margin: 0 0 0 30px;
+		width: 50px;
+		height: 50px;
+		display: none;
+	}
+	.finitude .qiche{
+		position: inherit;
+		width: 80%;
+		margin-left:10%;
+	}
+	.finitude .qiche img{
+		width: 100%;
+	}
+	.finitude .twosanjiao{
+		margin: 0 0 20px 30px;
+		width: 50px;
+		height: 50px;
 	}
 }

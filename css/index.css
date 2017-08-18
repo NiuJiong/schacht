@@ -1,8 +1,29 @@
 /*banner图*/
 
-.banner img {
+.banner{
+	position: relative;
+}
+.banner:before{
+	content: "";
+	display: block;
+	padding-top:39%;
+}
+.banner div{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	transition: all 1.5s; 
+	opacity: 0;
+}
+.banner div.active{
+	opacity: 1;
+}
+.banner img{
 	display: block;
 }
+
 
 .tailgate {
 	background: #F2F2F2;
